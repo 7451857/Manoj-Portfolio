@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manoj Negi | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        .hero {
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #38bdf8;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .about, .skills, .projects, .contact {
+            margin-top: 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            list-style: none;
+            gap: 10px;
+        }
+
+        .skills li {
+            background: #1e293b;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .project-card {
+            background: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e293b;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Manoj Negi</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Hi, I'm <span>Manoj Negi</span></h1>
+    <p>MCA Student | Aspiring Full Stack Developer | Problem Solver</p>
+    <a href="https://drive.google.com/file/d/1ewTUsUnl6CJDa0KcvGv6Fc7nFP376OV_/view?usp=drive_link" class="btn">Download Resume</a>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a motivated MCA student with strong interest in Web Development and Software Engineering.
+        I enjoy building projects, solving DSA problems, and learning modern technologies.
+        Currently looking for internship and entry-level opportunities.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>C#</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Bootstrap</li>
+        <li>SQL Server</li>
+        <li>MySQL</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>EduBrief - PDF Learning Platform</h3>
+        <p>Upload PDF, generate summary, create mock tests, and analyze performance.</p>
+        <p><strong>Tech:</strong> ASP.NET, SQL Server, HTML, CSS</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio website with modern UI design.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="project-card">
+        <h3>CRUD Application</h3>
+        <p>Basic create, read, update, delete system with database connectivity.</p>
+        <p><strong>Tech:</strong> C#, .NET, SQL Server</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: mnegi5592@gmail.com</p>
+    <p>Phone: 7451857091</p>
+    <p>Location: Delhi, India</p>
+</section>
+
+<footer>
+    <p>© 2026 Manoj Negi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
